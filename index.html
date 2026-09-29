@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavinda Dilshan | Software Engineer & ICT Undergraduate</title>
+    <meta name="description" content="ICT Undergraduate and Software Engineer specializing in C#, Java, Python, AWS Cloud infrastructure, and IoT systems. Building scalable, automated, and secure applications.">
+    <meta name="keywords" content="Kavinda Dilshan, Kavinda, Dilshan, kavindadilshan, Software Engineer, Kurunegala, Sri Lanka, AWS Cloud Practitioner, C#, Java, Python, IoT, GitHub, DevOps, Developer, KD Edit">
+    <meta name="author" content="Kavinda Dilshan">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f2f5f2">
+    <meta http-equiv="Cache-Control" content="max-age=86400, public">
+    <script>
+    /* Theme boot — runs before first paint so there is no flash. * Light is the default; dark only when the visitor chose it. */
+    (function () {  var t = null;  try { t = localStorage.getItem('theme'); } catch (e) {}  if (t !== 'light' && t !== 'dark') t = 'light';  document.documentElement.setAttribute('data-theme', t);})();
+    </script>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kavinda Dilshan | Software Engineer">
+    <meta property="og:description" content="Software Engineer specializing in backend development, cloud solutions, and automation.">
+    <meta property="og:url" content="https://kavindadilshan.github.io">
+    <meta property="og:site_name" content="Kavinda Dilshan">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kavinda Dilshan | Software Engineer">
+    <meta name="twitter:description" content="Software Engineer specializing in backend development, cloud solutions, and automation.">
+    <link rel="canonical" href="https://kavindadilshan.github.io">
+
+    <!-- Verified profiles (rel=me identity + crawlable entity links) -->
+    <link rel="me" href="https://github.com/kavindadilshan">
+
+    <link rel="icon" href="req/img/fav/favicon.svg?v=2" type="image/svg+xml">
+    <link rel="icon" href="req/img/fav/favicon.ico?v=2" sizes="any">
+    <link rel="apple-touch-icon" href="req/img/fav/apple-touch-icon.png?v=2">
+    <link rel="manifest" href="req/img/fav/site.webmanifest?v=2">
+
+    <link rel="preload" href="req/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="req/fonts/jetbrains-mono-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="req/css/styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://kavindadilshan.github.io/#website",
+          "url": "https://kavindadilshan.github.io/",
+          "name": "Kavinda Dilshan",
+          "publisher": { "@id": "https://kavindadilshan.github.io/#person" },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://kavindadilshan.github.io/#person",
+          "name": "Kavinda Dilshan",
+          "jobTitle": "Software Engineer & ICT Undergraduate",
+          "url": "https://kavindadilshan.github.io",
+          "email": "mailto:your.email@example.com",
+          "address": { "@type": "PostalAddress", "addressLocality": "Kurunegala", "addressRegion": "North Western Province", "addressCountry": "LK" },
+          "alumniOf": "University of Sri Jayewardenepura",
+          "knowsAbout": [
+            "Software Engineering", "C#", "Java", "Python",
+            "AWS Cloud", "IoT", "GitHub", "Object-Oriented Design"
+          ],
+          "sameAs": [
+            "https://github.com/kavindadilshan"
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="is-loading">
+
+<!-- ═══ Preloader · CI/CD deploy sequence ═══ -->
+<div class="preloader" id="preloader" role="status" aria-live="polite" aria-label="Loading">
+  <div class="preloader__glow"></div>
+  <div class="preloader__scan"></div>
+  <div class="boot">
+    <div class="boot__cmd"><span class="prompt">kavinda@dev</span> <span>:~$ deploy --env production --portfolio</span> <span class="caret"></span></div>
+    <div class="pipeline" aria-hidden="true">
+      <div class="pipeline__track"><span class="pipeline__fill"></span></div>
+      <div class="stage" data-stage="build">
+        <div class="stage__dot">
+          <svg class="default" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3-6 9 6 9M16 3l6 9-6 9M14 3l-4 18"/></svg>
+          <span class="spin"></span>
+          <svg class="stage__check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        </div><span class="stage__label">Build</span>
+      </div>
+      <div class="stage" data-stage="test">
+        <div class="stage__dot">
+          <svg class="default" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 9a2 2 0 0 0 1.8 3h12.4A2 2 0 0 0 20 18l-5-9V3M8 3h8M8 14h8"/></svg>
+          <span class="spin"></span>
+          <svg class="stage__check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        </div><span class="stage__label">Test</span>
+      </div>
+      <div class="stage" data-stage="deploy">
+        <div class="stage__dot">
+          <svg class="default" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4.5 16.5 3 3M9 15l-4.5 1.5M14 6l4 4M12.5 2.5 6 9l-2 5 5-2 6.5-6.5a3.5 3.5 0 0 0-3-3z"/><path d="M15 9a3.5 3.5 0 0 0-3-3"/></svg>
+          <span class="spin"></span>
+          <svg class="stage__check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        </div><span class="stage__label">Deploy</span>
+      </div>
+      <div class="stage" data-stage="release">
+        <div class="stage__dot">
+          <svg class="default" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="m3 7 9 5 9-5M12 12v10"/></svg>
+          <span class="spin"></span>
+          <svg class="stage__check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        </div><span class="stage__label">Release</span>
+      </div>
+    </div>
+    <div class="boot__foot">
+      <div class="boot__status"><span class="text-muted">›</span> initializing build environment<span class="text-muted">…</span></div>
+      <div class="boot__pct"><span class="n tnum">0</span><span class="s">%</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Ambient backdrop -->
+<div class="backdrop" aria-hidden="true">
+  <div class="backdrop__grid"></div>
+  <div class="backdrop__glow"></div>
+  <div class="backdrop__grain"></div>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ═══ Navigation ═══ -->
+<header class="site-header" id="siteHeader">
+  <nav class="nav" id="nav" aria-label="Primary">
+    <a class="brand" href="#hero" aria-label="Kavinda Dilshan — home">
+      <span class="brand__mark">KD</span>
+      <span class="brand__name">Kavinda&nbsp;Dilshan <span class="role">— Software Engineer</span></span>
+    </a>
+    <div class="nav__links" id="navLinks">
+      <a class="nav__link is-active" href="#hero">Home</a>
+      <a class="nav__link" href="#about">About</a>
+      <a class="nav__link" href="#work">Projects</a>
+      <a class="nav__link" href="#stack">Stack</a>
+      <a class="nav__link" href="#credentials">Proof</a>
+      <a class="nav__link" href="#contact">Contact</a>
+    </div>
+    <div class="nav__right">
+      <span class="nav__status" title="Local time · Sri Lanka (IST)">
+        <span class="live"></span>available
+        <span class="clock tnum" data-clock>00:00:00</span>
+      </span>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" data-cursor="theme">
+        <svg class="tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="btn btn--primary nav__cta magnetic" href="#contact" data-cursor="connect">Let's talk</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+<!-- ═══ Hero ═══ -->
+<section class="hero" id="hero">
+  <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="container">
+    <div class="hero__grid">
+      <div class="hero__intro">
+        <span class="eyebrow hero__eyebrow">ICT Undergraduate & Software Engineer <span class="reg">&nbsp;· ap-south-1 / LK</span></span>
+        <h1 class="hero__title" aria-label="Kavinda Dilshan">
+          <span class="line line--fill"><span data-decode="KAVINDA">KAVINDA</span></span>
+          <span class="line line--grad"><span data-decode="DILSHAN">DILSHAN</span><span class="blink" aria-hidden="true"></span></span>
+        </h1>
+        <p class="lead hero__lead">
+          I turn complex architectural challenges into
+          <span class="em">clean, efficient, and reliable software.</span>
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg magnetic" href="#contact" data-cursor="connect">
+            Let's connect
+            <svg class="btn__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#work" data-cursor="open">
+            <svg class="btn__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+            View my projects
+          </a>
+        </div>
+        <div class="status-strip" aria-label="Status">
+          <div class="stat">
+            <span class="stat__k">status</span>
+            <span class="stat__v live"><span class="dot"></span>learning & shipping</span>
+          </div>
+          <div class="stat">
+            <span class="stat__k">region</span>
+            <span class="stat__v">ap-south-1 · Kurunegala</span>
+          </div>
+          <div class="stat">
+            <span class="stat__k">since</span>
+            <span class="stat__v">2005 · 21y uptime</span>
+          </div>
+          <div class="stat">
+            <span class="stat__k">local</span>
+            <span class="stat__v tnum" data-clock>00:00:00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Git graph — a release, drawn live · hover a commit for its hash -->
+      <div class="hero__graph" aria-hidden="true">
+        <svg class="git" viewBox="0 0 420 560" fill="none">
+          <path class="g-line g-main"   d="M150 20 V 540" pathLength="1"/>
+          <path class="g-line g-branch" d="M150 120 C 150 168, 300 156, 300 204 V 356 C 300 404, 150 392, 150 440" pathLength="1"/>
+          <path class="g-flow" d="M150 120 C 150 168, 300 156, 300 204 V 356 C 300 404, 150 392, 150 440" pathLength="1"/>
+
+          <g class="g-commit" data-cursor="c0ffee1">
+            <circle class="g-hit" cx="150" cy="60" r="22"/>
+            <circle class="g-c g-c--main d1" cx="150" cy="60"  r="7" />
+            <text class="g-t g-t--dim d1" x="130" y="64"  text-anchor="end">main</text>
+          </g>
+          <g class="g-commit" data-cursor="fea7c1a">
+            <circle class="g-hit" cx="150" cy="120" r="22"/>
+            <circle class="g-c g-c--acc  d2" cx="150" cy="120" r="7" />
+            <text class="g-t d2" x="130" y="124" text-anchor="end">checkout -b feat/iot</text>
+          </g>
+          <g class="g-commit" data-cursor="add5afe">
+            <circle class="g-hit" cx="300" cy="240" r="22"/>
+            <circle class="g-c g-c--acc  d3" cx="300" cy="240" r="7" />
+            <text class="g-t d3" x="320" y="244">+ smart-gas-sys</text>
+          </g>
+          <g class="g-commit" data-cursor="5ecc0de">
+            <circle class="g-hit" cx="300" cy="320" r="22"/>
+            <circle class="g-c g-c--acc  d4" cx="300" cy="320" r="7" />
+            <text class="g-t g-t--acc d4" x="320" y="324">tests ✓ passed</text>
+          </g>
+          <g class="g-commit" data-cursor="decade00">
+            <circle class="g-hit" cx="150" cy="440" r="22"/>
+            <circle class="g-c g-c--acc  d5" cx="150" cy="440" r="7" />
+            <text class="g-t d5" x="130" y="444" text-anchor="end">merge → main</text>
+          </g>
+          <g class="g-commit g-head" data-cursor="HEAD → v1.0">
+            <circle class="g-hit" cx="150" cy="505" r="26"/>
+            <circle class="g-c g-c--acc  d5" cx="150" cy="505" r="8" />
+            <circle class="g-ring" cx="150" cy="505" r="9" />
+            <g class="g-tag">
+              <g class="g-tag__in">
+                <rect x="174" y="491" width="142" height="28" rx="14"/>
+                <text x="245" y="509" text-anchor="middle">v1.0 · deployed</text>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#about" aria-label="Scroll down" data-cursor="scroll">
+    <span class="txt">scroll</span>
+    <span class="rail"></span>
+  </a>
+</section>
+
+<!-- ═══ Marquee bridge ═══ -->
+<div class="marquee" aria-label="Tech ecosystem">
+  <div class="marquee__track" id="marqueeTrack">
+    <span class="marquee__item"><span class="d"></span>Software Engineering</span>
+    <span class="marquee__item"><span class="d"></span>Java</span>
+    <span class="marquee__item"><span class="d"></span>C#</span>
+    <span class="marquee__item"><span class="d"></span>Python</span>
+    <span class="marquee__item"><span class="d"></span>AWS Cloud Practitioner</span>
+    <span class="marquee__item"><span class="d"></span>Object-Oriented Design</span>
+    <span class="marquee__item"><span class="d"></span>GitHub</span>
+    <span class="marquee__item"><span class="d"></span>Data Structures</span>
+    <span class="marquee__item"><span class="d"></span>Internet of Things (IoT)</span>
+    <span class="marquee__item"><span class="d"></span>MQL5 Trading Bots</span>
+    <span class="marquee__item"><span class="d"></span>SQL Databases</span>
+    <span class="marquee__item"><span class="d"></span>Cybersecurity / CTF</span>
+    <span class="marquee__item"><span class="d"></span>Windows Forms</span>
+    <span class="marquee__item"><span class="d"></span>Adobe Premiere Pro</span>
+    <span class="marquee__item"><span class="d"></span>KD Edit</span>
+    <span class="marquee__item"><span class="d"></span>TryHackMe</span>
+    <span class="marquee__item"><span class="d"></span>Visual Studio</span>
+    <!-- Duplicated for seamless loop -->
+    <span class="marquee__item"><span class="d"></span>Software Engineering</span>
+    <span class="marquee__item"><span class="d"></span>Java</span>
+    <span class="marquee__item"><span class="d"></span>C#</span>
+    <span class="marquee__item"><span class="d"></span>Python</span>
+    <span class="marquee__item"><span class="d"></span>AWS Cloud Practitioner</span>
+  </div>
+</div>
+
+<!-- ═══ 01 · whoami ═══ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about__grid">
+      <!-- identity card -->
+      <aside class="idcard" data-reveal="left">
+        <div class="idcard__head">
+          <span>identity.card</span>
+          <span class="on">verified</span>
+        </div>
+        <div class="idcard__photo">
+          <img src="photo_2026-09-29_10-13-59.jpg" alt="Kavinda Dilshan" width="1254" height="1254" loading="lazy">
+          <span class="idcard__scan"></span>
+        </div>
+        <div class="idcard__meta">
+          <div class="idcard__row"><span class="k">uid</span><span class="v">kavindadilshan</span></div>
+          <div class="idcard__row"><span class="k">role</span><span class="v">software engineer</span></div>
+          <div class="idcard__row"><span class="k">base</span><span class="v">7.4818° N · 80.3609° E</span></div>
+          <div class="idcard__row"><span class="k">tz</span><span class="v">IST · UTC+05:30</span></div>
+          <div class="idcard__row"><span class="k">exp</span><span class="v">ict undergraduate</span></div>
+          <div class="idcard__row"><span class="k">status</span><span class="v acc">● building & learning</span></div>
+        </div>
+      </aside>
+
+      <!-- manifesto -->
+      <div class="about__body">
+        <div class="section-head">
+          <span class="eyebrow" data-reveal><span class="idx">01</span> — whoami</span>
+          <h2 data-reveal>Logic meets execution.<br>I build to solve.</h2>
+        </div>
+        <p class="lead-big" data-reveal>
+          Currently pursuing my Bachelor of Information and Communication Technology (Hons) at the <span class="em">University of Sri Jayewardenepura.</span>
+        </p>
+        <p data-reveal>
+          I am passionate about software engineering principles, focusing on <span class="hl">Java programming, Object-Oriented Analysis and Design, and backend logic</span>. From developing C# applications within Microsoft Visual Studio to experimenting with IoT hardware and AWS integrations, my goal is to bridge complex ideas with functional code.
+        </p>
+        <p data-reveal>
+          Beyond traditional software, I explore algorithmic trading using MQL5, dive into ethical hacking fundamentals via TryHackMe, and run a personal video editing brand, <span class="hl">KD Edit</span>, where I blend technical precision with creative visual storytelling.
+        </p>
+
+        <div class="ops-principles" data-stagger>
+          <article class="principle">
+            <span class="principle__n">01</span>
+            <h3>Architect properly</h3>
+            <p>Design applications with clean object-oriented principles, ensuring maintainability from day one.</p>
+          </article>
+          <article class="principle">
+            <span class="principle__n">02</span>
+            <h3>Cloud native</h3>
+            <p>Leverage modern AWS infrastructure (EC2, S3, VPC) to build scalable backend systems.</p>
+          </article>
+          <article class="principle">
+            <span class="principle__n">03</span>
+            <h3>Continuous learning</h3>
+            <p>Whether it's mastering data structures or algorithmic trading logic, growth is the constant.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 02 · Work — release log ═══ -->
+<section class="section" id="work">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-reveal>
+        <span class="idx">02</span> — git log --projects
+      </span>
+      <h2 data-reveal>Recent Builds & Deployments.</h2>
+    </div>
+    <div class="timeline" data-reveal>
+
+      <!-- Project 1 -->
+      <article class="release" data-reveal>
+        <div class="release__aside">
+          <span class="release__tag">release/2026.09 — HEAD</span>
+          <h3 class="release__co">IoT Architecture</h3>
+          <p class="release__period">Sep 2026</p>
+        </div>
+        <div class="release__main">
+          <h4 class="release__role">
+            Smart Gas Extraction & Containment System
+            <span class="now">latest</span>
+          </h4>
+          <p class="release__sum">
+            Designed an Internet of Things project concept integrating <span class="hl">hardware sensors, automated solenoid valves, and AWS cloud management</span> for containment control. Created system architecture plans and hardware wiring schematics.
+          </p>
+          <div class="release__chips" data-stagger>
+            <span class="kchip"><span class="d"></span>AWS</span>
+            <span class="kchip"><span class="d"></span>IoT</span>
+            <span class="kchip"><span class="d"></span>Python</span>
+            <span class="kchip"><span class="d"></span>System Architecture</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="release release--past" data-reveal>
+        <div class="release__aside">
+          <span class="release__tag">release/2026.06</span>
+          <h3 class="release__co">Software Engineering</h3>
+          <p class="release__period">Jun 2026</p>
+        </div>
+        <div class="release__main">
+          <h4 class="release__role">
+            Vehicle Eco-Emission Testing Booking System
+          </h4>
+          <p class="release__sum">
+            Developed a robust desktop application for booking and managing vehicle emission testing schedules. Built user interfaces, <span class="hl">database logic, and managed Git version control workflows</span> alongside my teammate.
+          </p>
+          <div class="release__chips" data-stagger>
+            <span class="kchip"><span class="d"></span>C#</span>
+            <span class="kchip"><span class="d"></span>Windows Forms</span>
+            <span class="kchip"><span class="d"></span>SQL</span>
+            <span class="kchip"><span class="d"></span>GitHub</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Selected outcomes — numbered stat strip -->
+    <div class="impact-strip" data-reveal>
+      <span class="eyebrow">
+        <span class="idx">02a</span> — git diff --stat
+      </span>
+      <h3 class="impact-title">Academic & Project impact.</h3>
+      <p class="impact-sub">Recent milestones in my undergraduate journey.</p>
+      <div class="impact-grid" data-stagger>
+        <article class="impact-stat">
+          <strong class="impact-stat__n">4<span>+</span></strong>
+          <span class="impact-stat__l">Core Languages Mastered</span>
+        </article>
+        <article class="impact-stat">
+          <strong class="impact-stat__n">12<span>w</span></strong>
+          <span class="impact-stat__l">AWS Cloud Bootcamp</span>
+        </article>
+        <article class="impact-stat">
+          <strong class="impact-stat__n">100<span>%</span></strong>
+          <span class="impact-stat__l">Focus on Scalable Architecture</span>
+        </article>
+        <article class="impact-stat">
+          <strong class="impact-stat__n">2<span>+</span></strong>
+          <span class="impact-stat__l">Years in ICT Degree</span>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 03 · Stack — spec sheet ═══ -->
+<section class="section" id="stack">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-reveal><span class="idx">03</span> — cat stack.yaml</span>
+      <h2 data-reveal>The toolchain, declared.</h2>
+    </div>
+    <div class="stack-stage" data-reveal>
+      <div class="stack-stage__copy">
+        <span class="stack-stage__label">development toolkit</span>
+        <p>The core technologies I utilize to analyze, design, and deploy efficient software systems and cloud infrastructure.</p>
+      </div>
+      <div class="stack-stage__surface">
+        <figure class="spec spec--peek">
+          <figcaption>
+            <span class="d"></span>
+            <span class="path">dev/</span>stack.yaml
+            <span class="path">· tracked · drift checked</span>
+            <span class="spec__hint">hover a card ↓</span>
+          </figcaption>
+          <span class="spec__scan" aria-hidden="true"></span>
+          <div class="spec__mask">
+            <pre data-stagger><span class="ln"><span class="no">1</span><span><span class="k">stack</span><span class="p">:</span></span></span><span class="ln"><span class="no">2</span><span>  <span class="k">languages</span><span class="p">:</span>     <span class="p">[</span><span class="v">java</span><span class="p">,</span> <span class="v">c-sharp</span><span class="p">,</span> <span class="v">python</span><span class="p">,</span> <span class="v">mql5</span><span class="p">]</span></span></span><span class="ln"><span class="no">3</span><span>  <span class="k">cloud</span><span class="p">:</span>         <span class="p">[</span><span class="v">aws-ec2</span><span class="p">,</span> <span class="v">aws-s3</span><span class="p">,</span> <span class="v">aws-vpc</span><span class="p">,</span> <span class="v">iam</span><span class="p">]</span></span></span><span class="ln"><span class="no">4</span><span>  <span class="k">scm</span><span class="p">:</span>           <span class="p">[</span><span class="v">git</span><span class="p">,</span> <span class="v">github</span><span class="p">,</span> <span class="v">version-control</span><span class="p">]</span></span></span><span class="ln"><span class="no">5</span><span>  <span class="k">platforms</span><span class="p">:</span>     <span class="p">[</span><span class="v">windows-forms</span><span class="p">,</span> <span class="v">iot-devices</span><span class="p">,</span> <span class="v">bolt-new</span><span class="p">]</span></span></span><span class="ln"><span class="no">6</span><span>  <span class="k">databases</span><span class="p">:</span>     <span class="p">[</span><span class="v">sql</span><span class="p">,</span> <span class="v">relational-db</span><span class="p">]</span></span></span><span class="ln"><span class="no">7</span><span>  <span class="k">security</span><span class="p">:</span>      <span class="p">[</span><span class="v">tryhackme</span><span class="p">,</span> <span class="v">ctf-challenges</span><span class="p">,</span> <span class="v">ethical-hacking</span><span class="p">]</span></span></span><span class="ln"><span class="no">8</span><span>  <span class="k">creative</span><span class="p">:</span>      <span class="p">[</span><span class="v">adobe-premiere-pro</span><span class="p">,</span> <span class="v">kd-edit</span><span class="p">]</span></span></span><span class="ln"><span class="no">9</span><span>  <span class="k">methods</span><span class="p">:</span>       <span class="p">[</span><span class="v">object-oriented-design</span><span class="p">,</span> <span class="v">data-structures</span><span class="p">]</span></span></span><span class="ln"><span class="no">10</span><span></span></span><span class="ln"><span class="no">11</span><span><span class="k">mode</span><span class="p">:</span> <span class="v">continuous_learning</span>  <span class="c"># architect properly • cloud native</span><span class="cursor-line"></span></span></span></pre>
+          </div>
+        </figure>
+
+        <div class="stack-cards" data-stagger>
+          <article class="stack-card" data-keys="languages,methods,databases">
+            <span class="stack-card__k">code</span>
+            <strong>Software Engineering</strong>
+            <p>Java, C#, Python, SQL, Object-Oriented Analysis & Design</p>
+          </article>
+          <article class="stack-card" data-keys="cloud,scm">
+            <span class="stack-card__k">deploy</span>
+            <strong>Cloud & Version Control</strong>
+            <p>AWS (EC2, S3, VPC), Git, GitHub, Version Control workflows</p>
+          </article>
+          <article class="stack-card" data-keys="creative,security,platforms">
+            <span class="stack-card__k">explore</span>
+            <strong>Specialized Skills</strong>
+            <p>TryHackMe, IoT Hardware, Algorithmic Trading (MQL5), Premiere Pro</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 04 · Credentials ═══ -->
+<section class="section" id="credentials">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-reveal><span class="idx">04</span> — ls -la credentials/</span>
+      <h2 data-reveal>Education & Certifications.</h2>
+    </div>
+
+    <div class="credgroup">
+      <div data-stagger>
+        <a class="crow" href="#" target="_blank" rel="noopener" data-cursor="verify">
+          <span class="crow__issuer">Institute of Digital Engineering Tech</span>
+          <span class="crow__name">AWS Cloud Practitioner Bootcamp (12-Week)</span>
+          <span class="crow__dates">Aug 2026</span>
+          <span class="crow__go">completed <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg></span>
+        </a>
+        <a class="crow" href="#" target="_blank" rel="noopener" data-cursor="verify">
+          <span class="crow__issuer">GitHub</span>
+          <span class="crow__name">GitHub Foundations</span>
+          <span class="crow__dates">In Progress</span>
+          <span class="crow__go">studying <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="credgroup" style="margin-bottom:0; margin-top:3rem;">
+      <div class="credgroup__label" data-reveal>education</div>
+      <div class="edu" data-reveal>
+        <span class="edu__ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5zM6 12v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5M22 10v6"/></svg>
+        </span>
+        <div>
+          <div class="edu__deg">Bachelor of Information and Communication Technology (Hons)</div>
+          <div class="edu__field">Faculty of Technology</div>
+          <div class="edu__school">University of Sri Jayewardenepura</div>
+        </div>
+        <span class="edu__years">Current</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 05 · Contact ═══ -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <span class="eyebrow" data-reveal><span class="idx">05</span> — ping kavinda</span>
+    <h2 class="contact__title" data-reveal>Ready to build<br><span class="grad">something awesome?</span></h2>
+    <p class="contact__sub" data-reveal>Whether it's software engineering roles, cloud technology discussions, or creative collaborations, I'm open to connect.</p>
+
+    <div class="contact__actions" data-reveal>
+      <a class="btn btn--primary btn--lg magnetic" href="mailto:your.email@example.com" data-cursor="send">
+        Email me
+        <svg class="btn__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn--ghost btn--lg" href="https://github.com/kavindadilshan" target="_blank" rel="noopener" data-cursor="open">
+        <svg class="btn__ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        GitHub
+      </a>
+    </div>
+
+    <div data-reveal>
+      <button class="copyline" id="copyEmail" data-copy="your.email@example.com" data-cursor="copy" type="button" aria-live="polite">
+        <span class="p">$</span>
+        <span class="addr">echo your.email@example.com | clip</span>
+        <span class="ok">✓ copied to clipboard</span>
+      </button>
+    </div>
+
+    <div class="contact__meta" data-reveal style="margin-top:2.2rem">
+      <span>base: Kurunegala, North Western Province, LK</span>
+      <a href="https://www.google.com/maps?q=Kurunegala,Sri+Lanka" target="_blank" rel="noopener" data-cursor="map">7.4818° N · 80.3609° E ↗</a>
+      <span>tz: IST · UTC+05:30</span>
+    </div>
+  </div>
+</section>
+
+</main>
+<!-- ═══ Footer ═══ -->
+<footer class="site-footer">
+  <div class="container footer__row">
+    <a class="footer__brand" href="#hero" data-cursor="top">
+      <span class="brand__mark">KD</span> Kavinda Dilshan
+    </a>
+    <span class="footer__mono">© 2026 · deployed from Kurunegala · status: <span class="text-accent">operational</span></span>
+    <div class="footer__links">
+      <a href="https://github.com/kavindadilshan" target="_blank" rel="noopener" data-cursor="open">GitHub</a>
+      <a href="mailto:your.email@example.com" data-cursor="send">Email</a>
+      <a href="#hero" data-cursor="top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js" defer></script>
+<script src="req/js/preloader.js" defer></script>
+<script src="req/js/main.js" defer></script>
+<script src="req/js/cursor.js" defer></script>
+</body>
+</html>
